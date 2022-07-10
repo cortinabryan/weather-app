@@ -9,6 +9,9 @@ body {
   font-family: "Roboto Mono", monospace;
   background: #222;
   background-image: url("https://source.unsplash.com/1600x900/?nature,water,landscape");
+  color: #ffffff;
+  background-size: cover;
+  font-size: 120%;
 }
 
 .card {
@@ -26,10 +29,35 @@ body {
   justify-content: center;
 }
 
+input.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.5em 1em;
+  border-radius: 24px;
+  background: #7c7c7c30;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 105%;
+  width: calc(100% - 100px);
+}
+
 button {
   margin: 0.5em;
   border-radius: 50%;
   border: none;
-  height: 2.5em;
-  width: 2.5em;
+  height: 44px;
+  width: 44px;
+  outline: none;
+  background: #7c7c7c2b;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #7c7c7c6b;
+}
+
+h1.temp {
+  margin: 0;
 }
